@@ -101,6 +101,42 @@
     opacity:1;
 }
 </style>
+<style>
+        .plantpot3{
+            position: relative;
+            width: 100%;
+            max-width: 300px;
+        }
+        
+        .image{
+            display:block;
+            width:100%;
+            height: auto;
+        }
+        .overlay3 {
+          position: absolute; 
+          bottom: 0; 
+          background: rgb(0, 0, 0);
+          background: rgba(133, 156, 124, 0.5); /* Black see-through */
+          color:blue; 
+          width: 100%;
+          height:100%;
+          transition: .5s ease;
+          opacity:0;
+          color: blue;
+          font-family:fantasy;
+          font-size: 20px;
+          padding: 20px;
+          text-align: center;
+        }
+        
+        .plantpot3:hover .overlay3
+        {
+            opacity:1;
+        }
+        </style>
+        </head>
+
 <body>
 <center>
  <div class="plantpot">
@@ -112,12 +148,26 @@ class="image">
 <div class="plantpot2">
 <img src="./assets/elephantear.jpg" alt="elephantear"
 class="image">
-<div class="overlay2">Life is a texture;<br> it’s ok to feel like a ceiling fan<br> but eventually you gotta spin out of control,<br> off the wall.<br> I felt the blade.<br> The grass.<br> The field where I am not god fearing,<br> just pigeon fearing. <br>
+<div class="overlay2">
+    life is a texture;<br> 
+    it’s ok to feel like a ceiling fan<br> 
+    but eventually you gotta spin out of control,<br> 
+    off the wall.<br> I felt the blade.<br> 
+    The grass.<br> The field where I am not god fearing,<br> just pigeon fearing. <br>
 </div>
 </div>
 <div class="plantpot3">
-<img src="./assets/arrowhead.jpg" alt="arrowhead">
+<img src="./assets/arrowhead.jpg" alt="arrowhead"
+class="image">
+<div class="overlay3">
+        To jive with someone else<br>
+        Can seem quite rare <br>
+        Quite<br>
+        Next level.<br>
+    
 </div>
+</div>
+
 </body>
 
 
